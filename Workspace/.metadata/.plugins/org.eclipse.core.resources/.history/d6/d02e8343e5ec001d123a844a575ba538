@@ -1,0 +1,13 @@
+package utilities;
+
+import org.openqa.selenium.WebDriver;
+
+public enum SeleniumUtil {
+	;
+
+	public static void WebDriver setUp(String string, String string2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

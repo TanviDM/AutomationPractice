@@ -1,0 +1,31 @@
+package pack2;
+
+public class ProtectedMem {
+	
+
+		protected int accNum=12345;
+		protected void displayAccNum() {
+			System.out.println("Account Number: "+accNum);
+		}
+		public static void main(String[] args) {
+			ProtectedMem p1=new ProtectedMem();
+			System.out.println(p1.accNum);
+			p1.displayAccNum();
+		}
+	}
+	class AccessProtectedmembers {
+
+		public static void main(String[] args) {
+			
+			ProtectedMem p1=new ProtectedMem();
+			System.out.println("Accessing Protected members from child class");
+			System.out.println(p1.accNum);
+			p1.displayAccNum();
+		}
+	}
+	/**
+	 * protected members are accessible with in package 
+	 * but we can also access these member from outside the package using inheritance
+	 */
+
+

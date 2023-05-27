@@ -1,0 +1,17 @@
+package ForLoop;
+
+public class DisplayText {
+
+	public static void main(String[] args) {
+		
+	int	n=5, num=0;
+		for ( int i=0; i>=n ;i++)
+		{
+			num=num+1;
+		}
+           System.out.println("i");		
+           
+
+	}
+
+}

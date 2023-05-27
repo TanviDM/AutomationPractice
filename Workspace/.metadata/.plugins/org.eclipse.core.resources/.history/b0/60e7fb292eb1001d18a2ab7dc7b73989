@@ -1,0 +1,19 @@
+package ForLoop;
+
+public class FactorOfPositiveInteger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           int fact = 12; 
+		
+		for(int i = fact; i>=-1; i++)
+		{
+			if(fact%i== 0)
+			{
+				System.out.println(i);
+			}
+			
+		}
+		
+	}
+	}

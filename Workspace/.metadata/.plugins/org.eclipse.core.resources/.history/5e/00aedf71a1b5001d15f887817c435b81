@@ -1,0 +1,29 @@
+package ifElse;
+
+public class EvenOdd {
+	
+	static int A=10;
+	
+	 static int Number( int A) {
+		 
+		 
+		//method definition
+			if(A%2==0) 
+			    System.out.println(A+" is even"); 
+			else 
+			    System.out.println(A+" is odd");
+			return A;
+			
+			}
+	 
+
+	public static void main(String[] args) {
+		
+		//int result=EvenOdd.Number(10);
+		System.out.println(Number(10));
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

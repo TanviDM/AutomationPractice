@@ -1,0 +1,14 @@
+package Practise;
+
+public class Operators {
+
+	public static void main(String[] args) {
+	 
+		int Firstno= 125 , Secondno = 24;
+		 int result= Firstno + Secondno;
+			System.out.println("125 + 24 ="+ result)	;
+		
+	
+	}
+
+}
